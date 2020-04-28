@@ -30,6 +30,7 @@
         <module>cloud-stream-rabbitmq-provider8801</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
+        <module>cloud-alibaba-provider-payment9001</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -45,8 +46,7 @@
     </properties>
 
     <!--
-         <dependencyManagement>标签通常用于父亲工程，用于被子模块继承
-         子模块继承之后，其作用为：锁定版本+子modlue，不用写groupId和version
+         <dependencyManagement>标签通常用于父亲工程，用于被子模块之后，其作用为：锁定版本+子modlue，不用写groupId和version
      -->
     <dependencyManagement>
         <dependencies>
@@ -103,7 +103,6 @@
                 <artifactId>hutool-all</artifactId>
                 <version>5.2.3</version>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 
