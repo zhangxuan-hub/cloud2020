@@ -30,7 +30,10 @@
         <module>cloud-stream-rabbitmq-provider8801</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
+<<<<<<< HEAD
         <module>cloud-alibaba-provider-payment9001</module>
+=======
+>>>>>>> 2dd1d93426c68f4f8c52e501dbaf8f820016d4ea
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -103,6 +106,10 @@
                 <artifactId>hutool-all</artifactId>
                 <version>5.2.3</version>
             </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2dd1d93426c68f4f8c52e501dbaf8f820016d4ea
         </dependencies>
     </dependencyManagement>
 
