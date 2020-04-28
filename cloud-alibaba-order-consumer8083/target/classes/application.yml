@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: nacos-order-consumer8083
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos:8848
+
+service-url:
+  nacos-user-service: "nacos-payment-provider"

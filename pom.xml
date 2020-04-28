@@ -31,6 +31,7 @@
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
         <module>cloud-alibaba-provider-payment9001</module>
+        <module>cloud-alibaba-order-consumer8083</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -96,6 +97,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.zx.springcloud</groupId>
+                <artifactId>cloud-api-commons</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
             <dependency>
